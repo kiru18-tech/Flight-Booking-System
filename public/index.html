@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:40px;
+
+
+      }
+      button{
+        border: none;
+        cursor: pointer;
+        appearance: none;
+        background-color: inherit;
+         transition: transform .7s ease-in-out;
+        margin-left:10px;
+
+      }
+      img{
+        width: 100px;
+        height: 100px;
+      }
+      input[type="email"]{
+        padding:10px;
+        border:2px solid #314de4;
+        outline :none;
+        border-radius:5px;
+        font-size:24px;
+        color:#314de4;
+      }
+      .text{
+        font-size:60px;
+        color:#314de4;
+        font-family:Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text">User</div>
+    <div>
+      <button type="submit">
+        <img src="user.jpg" alt="buttonpng" border="0"  onclick="window.location.href = 'userLogin.html';"/>
+      </button>
+    </div>
+    <div class="text">Admin</div>
+    <div>
+      <button type="submit">
+        <img src="admin.jpg" alt="buttonpng" border="0"  onclick="window.location.href = 'adminlogin.html';"/>
+      </button>
+    </div>
+  </body>
+</html>
